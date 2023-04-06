@@ -34,6 +34,10 @@ grep "VITE_SITE_URL = \"imsyy.top\"" -rl ./ | xargs sed -i "s#VITE_SITE_URL = \"
 grep "本站已经苟活了" -rl ./ | xargs sed -i "s#本站已经苟活了#本宝宝已经出生了#g"
 
 yarn build
+
+cd ./dist/
+echo "xiaobeing.cn" > README.md
+echo "www.xiaobeing.cn" >> README.md
 rm -rf .git
 git rm --cached -r *
 git config --global user.name "Mr-jiangrj"
