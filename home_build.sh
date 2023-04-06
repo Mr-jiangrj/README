@@ -36,8 +36,8 @@ grep "本站已经苟活了" -rl ./ | xargs sed -i "s#本站已经苟活了#本�
 yarn build
 
 cd ./dist/
-echo "xiaobeing.cn" > README.md
-echo "www.xiaobeing.cn" >> README.md
+echo "xiaobeing.cn" > CNAME
+echo "www.xiaobeing.cn" >> CNAME
 rm -rf .git
 git rm --cached -r *
 git config --global user.name "Mr-jiangrj"
