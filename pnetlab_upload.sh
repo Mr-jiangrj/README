@@ -31,4 +31,4 @@ wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/
 wget https://github.com/Mr-jiangrj/website_build/raw/main/OneDrive/auth.json
 chmod 777 OneDriveUploader
 chmod 777 auth.json
-./OneDriveUploader -s /opt/pnetlab/* -r /Share/pnetlab/
+./OneDriveUploader -s /opt/pnetlab -r /Share/
