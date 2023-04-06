@@ -18,5 +18,5 @@ git config --global user.email "1326890495@qq.com"
 git init
 git add -A
 git remote add origin git@github.com:Mr-jiangrj/music.git
-git commit -m "change user info"
+git commit -m "music"
 git push origin master:main --force
