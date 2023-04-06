@@ -14,6 +14,7 @@ grep "mmPlayer在线音乐播放器" -rl ./ | xargs sed -i "s#mmPlayer在线音�
 npm run build
 
 cd ./dist/
+grep "mmPlayer 在线音乐播放器" -rl ./ | xargs sed -i "s#mmPlayer 在线音乐播放器#Radios 在线音乐播放器#g"
 echo "music.xiaobeing.cn" > CNAME
 rm -rf .git
 git rm --cached -r *
