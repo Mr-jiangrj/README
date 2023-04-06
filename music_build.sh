@@ -8,6 +8,7 @@ npm install
 grep "http://localhost:3000" -rl ./ | xargs sed -i "s#http://localhost:3000#https://netease-cloud-music-api-six-flame.vercel.app#g"
 grep "茂茂" -rl ./ | xargs sed -i "s#茂茂#@小江不emo#g"
 grep "https://github.com/maomao1996" -rl ./ | xargs sed -i "s#https://github.com/maomao1996#https://github.com/Mr-jiangrj#g"
+grep "\"author\": \"maomao1996 <1714487678@qq.com>\"" -rl ./ | xargs sed -i "s#\"author\": \"maomao1996 <1714487678@qq.com>\"#\"author\": \"@小江不emo <1326890495@qq.com>\"#g"
 
 npm run build
 
