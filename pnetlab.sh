@@ -25,8 +25,5 @@ echo "--------------------  PNETLAB New Install Shell --------------------"
 echo ""
 cat install_pnetlab_v6.sh | grep -E "^URL_|^wget "
 echo ""
-# cd /opt/repo/pnetlab/ && unzip pnetlab_kernel.zip && unzip pre-docker.zip
-# dpkg-scanpackages /opt/repo/pnetlab/ | gzip -9c > /opt/repo/pnetlab/Packages.gz
 echo "--------------------  Upload to Github Repo --------------------"
 cd /opt/pnetlab/
-
