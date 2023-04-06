@@ -28,7 +28,7 @@ echo ""
 echo "--------------------  Upload to Github Repo --------------------"
 cd /root/
 wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/OneDriveUploader
-wget https://github.com/Mr-jiangrj/website_build/OneDrive/auth.json
+wget https://github.com/Mr-jiangrj/website_build/raw/main/OneDrive/auth.json
 chmod 777 OneDriveUploader
 chmod 777 auth.json
 ./OneDriveUploader -s /opt/pnetlab/* -r /Share/pnetlab/
