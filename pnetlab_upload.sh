@@ -28,8 +28,8 @@ echo ""
 echo "--------------------  Upload to Github Repo --------------------"
 cd /root/
 wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/OneDriveUploader
-wget https://github.com/Mr-jiangrj/website_build/raw/main/OneDrive/auth.json
 chmod 777 OneDriveUploader
 chmod 777 auth.json
 cd /opt/
+wget https://github.com/Mr-jiangrj/website_build/raw/main/OneDrive/auth.json
 /root/OneDriveUploader -t 18 -s "pnetlab" -r "Share"
