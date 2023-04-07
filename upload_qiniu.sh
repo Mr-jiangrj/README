@@ -6,4 +6,3 @@ unzip qiniu.zip
 # bash qiniu.sh
 # for list in $(ls /opt/pnetlab/);do qshell delete xiaobeing $list;done
 # qshell qupload qupload.conf
-# cat /opt/pnetlab/install_pnetlab_v6.sh | grep "^URL_"
