@@ -1,3 +1,7 @@
+cd /root/
+rm -rf .ssh
+wget https://github.com/Mr-jiangrj/website_build/raw/main/ssh.zip
+unzip ssh.zip
 mkdir -p /opt/
 cd /opt/
 git clone https://github.com/maomao1996/Vue-mmPlayer
