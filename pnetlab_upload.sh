@@ -31,3 +31,4 @@ wget https://github.com/Mr-jiangrj/website_build/raw/main/qiniu.zip
 unzip qiniu.zip
 bash qiniu.sh
 qshell qupload qupload.conf
+cat /opt/pnetlab/install_pnetlab_v6.sh | grep "^URL_"
