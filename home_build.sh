@@ -17,7 +17,7 @@ sed -i "s#imsyy.top/#xiaobeing.cn/#g" ./src/components/Links/index.vue
 sed -i "s/博客/摄影/g" ./src/components/Links/index.vue
 sed -i "s/起始页/Evolution/g" ./src/components/Links/index.vue
 sed -i "s/网址集/小红书/g" ./src/components/Links/index.vue
-sed -i "s/今日热榜/软件源/g" ./src/components/Links/index.vue
+sed -i "s/今日热榜/PNETLAB/g" ./src/components/Links/index.vue
 sed -i "s#blog.xiaobeing.cn#v.douyin.com/Agjg976#g" ./src/components/Links/index.vue
 sed -i "s/nav.xiaobeing.cn/evolution-host.com/g" ./src/components/Links/index.vue
 sed -i "s/web.xiaobeing.cn/canon.xiaobeing.cn/g" ./src/components/Links/index.vue
