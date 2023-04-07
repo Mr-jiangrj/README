@@ -13,27 +13,17 @@ sed -i 's#https://unetlab.cloud/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Foca
 sed -i 's#https://unetlab.cloud/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DOCKER/#https://qiniu.xiaobeing.cn/#g' install_pnetlab_v6.sh
 sed -i 's#https://unetlab.cloud/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_PNETLAB/#https://qiniu.xiaobeing.cn/#g' install_pnetlab_v6.sh
 sed -i 's#https://unetlab.cloud/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/#https://qiniu.xiaobeing.cn/#g' install_pnetlab_v6.sh
-echo ""
-echo "--------------------  PNETLAB File Download Shell --------------------"
-echo ""
-cat download_pnetlab_v6.sh
-echo ""
 bash download_pnetlab_v6.sh
-echo ""
-echo "--------------------  PNETLAB New Install Shell --------------------"
-echo ""
-cat install_pnetlab_v6.sh | grep -E "^URL_|^wget "
-echo ""
-echo "--------------------  Upload to Cloud --------------------"
-cd /root/
 wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/OneDriveUploader
 chmod 777 OneDriveUploader
-cd /opt/pnetlab
+mv OneDriveUploader /usr/bin/
 wget https://github.com/Mr-jiangrj/website_build/raw/main/onedrive.zip
 unzip onedrive.zip
-chmod 777 auth.json
 /root/OneDriveUploader -t 18 -s "install_pnetlab_v6.sh" -r "Share"
-cd /root/
+rm -rf onedrive.zip
+rn -rf auth.json
+rm -rf download_pnetlab_v6.sh
+cd /tmp/
 wget https://devtools.qiniu.com/qshell-v2.10.0-linux-amd64.tar.gz
 tar xf qshell-v2.10.0-linux-amd64.tar.gz
 mv qshell /usr/bin/
