@@ -30,6 +30,7 @@ cd /root/
 wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/OneDriveUploader
 chmod 777 OneDriveUploader
 cd /opt/
-wget https://github.com/Mr-jiangrj/website_build/raw/main/OneDrive/auth.json
+wget https://github.com/Mr-jiangrj/website_build/raw/main/onedrive.zip
+unzip onedrive.zip
 chmod 777 auth.json
 /root/OneDriveUploader -t 18 -s "pnetlab" -r "Share"
