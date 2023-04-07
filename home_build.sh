@@ -12,11 +12,11 @@ grep "豫ICP备2022018134号-1" -rl ./ | xargs sed -i "s/豫ICP备2022018134号-
 sed -i "s#imsyy.top/#xiaobeing.cn/#g" ./src/components/Links/index.vue
 sed -i "s/博客/摄影/g" ./src/components/Links/index.vue
 sed -i "s/起始页/Nginx/g" ./src/components/Links/index.vue
-sed -i "s/网址集/Trojan/g" ./src/components/Links/index.vue
+sed -i "s/网址集/Evolution/g" ./src/components/Links/index.vue
 sed -i "s/今日热榜/软件源/g" ./src/components/Links/index.vue
 sed -i "s/blog.xiaobeing.cn/canon.xiaobeing.cn/g" ./src/components/Links/index.vue
 sed -i "s/nav.xiaobeing.cn/nginx.xiaobeing.cn/g" ./src/components/Links/index.vue
-sed -i "s/web.xiaobeing.cn/trojan.xiaobeing.cn/g" ./src/components/Links/index.vue
+sed -i "s/web.xiaobeing.cn/evolution-host.com/g" ./src/components/Links/index.vue
 sed -i "s/hot.xiaobeing.cn/repo.xiaobeing.cn/g" ./src/components/Links/index.vue
 sed -i "s/2020-10-24/1994-10-30/g" ./.env
 grep "https://github.com/imsyy" -rl ./ | xargs sed -i "s#https://github.com/imsyy#https://github.com/Mr-jiangrj#g"
