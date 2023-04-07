@@ -19,10 +19,10 @@ chmod 777 OneDriveUploader
 mv OneDriveUploader /usr/bin/
 wget https://github.com/Mr-jiangrj/website_build/raw/main/onedrive.zip
 unzip onedrive.zip
-/root/OneDriveUploader -t 18 -s "install_pnetlab_v6.sh" -r "Share"
-rm -rf onedrive.zip
-rn -rf auth.json
-rm -rf download_pnetlab_v6.sh
+OneDriveUploader -t 18 -s "install_pnetlab_v6.sh" -r "Share"
+rm -rf /opt/pnetlab/onedrive.zip
+rm -rf /opt/pnetlab/auth.json
+rm -rf /opt/pnetlab/download_pnetlab_v6.sh
 cd /tmp/
 wget https://devtools.qiniu.com/qshell-v2.10.0-linux-amd64.tar.gz
 tar xf qshell-v2.10.0-linux-amd64.tar.gz
