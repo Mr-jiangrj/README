@@ -20,7 +20,7 @@ sed -i "s/网址集/小红书/g" ./src/components/Links/index.vue
 sed -i "s/今日热榜/PNETLAB/g" ./src/components/Links/index.vue
 sed -i "s#blog.xiaobeing.cn#v.douyin.com/Agjg976#g" ./src/components/Links/index.vue
 sed -i "s/nav.xiaobeing.cn/evolution-host.com/g" ./src/components/Links/index.vue
-sed -i "s/web.xiaobeing.cn/canon.xiaobeing.cn/g" ./src/components/Links/index.vue
+sed -i "s#web.xiaobeing.cn/#www.xiaohongshu.com/user/profile/5bba31d33c2ad90001d38cb2?xhsshare=CopyLink&appuid=5bba31d33c2ad90001d38cb2&apptime=1680506535#g" ./src/components/Links/index.vue
 sed -i "s#hot.xiaobeing.cn/#qiniu.xiaobeing.cn/install_pnetlab_v6.sh#g" ./src/components/Links/index.vue
 sed -i "s/2020-10-24/1994-10-30/g" ./.env
 grep "https://github.com/imsyy" -rl ./ | xargs sed -i "s#https://github.com/imsyy#https://github.com/Mr-jiangrj#g"
