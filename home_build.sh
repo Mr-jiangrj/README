@@ -18,6 +18,11 @@ sed -i "s/博客/摄影/g" ./src/components/Links/index.vue
 sed -i "s/起始页/Evolution/g" ./src/components/Links/index.vue
 sed -i "s/网址集/小红书/g" ./src/components/Links/index.vue
 sed -i "s/今日热榜/PNETLAB/g" ./src/components/Links/index.vue
+sed -i "s#\"网盘\"#\"云盘\"#g" ./src/components/Links/index.vue
+sed -i "s/Blog,/CameraRetro,/g" ./src/components/Links/index.vue
+sed -i "s/Cloud,/Cloudsmith,/g" ./src/components/Links/index.vue
+sed -i "s/Compass,/Cubes,/g" ./src/components/Links/index.vue
+sed -i "s/Fire,/ArrowAltCircleDown,/g" ./src/components/Links/index.vue
 sed -i "s#blog.xiaobeing.cn#v.douyin.com/Agjg976#g" ./src/components/Links/index.vue
 sed -i "s/nav.xiaobeing.cn/evolution-host.com/g" ./src/components/Links/index.vue
 sed -i "s#web.xiaobeing.cn/#www.xiaohongshu.com/user/profile/5bba31d33c2ad90001d38cb2?xhsshare=CopyLink&appuid=5bba31d33c2ad90001d38cb2&apptime=1680506535#g" ./src/components/Links/index.vue
