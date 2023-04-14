@@ -14,15 +14,15 @@ sed -i 's#https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Foca
 sed -i 's#https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_PNETLAB/#https://qiniu.xiaobeing.cn/#g' install_pnetlab_v6.sh
 sed -i 's#https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/#https://qiniu.xiaobeing.cn/#g' install_pnetlab_v6.sh
 bash download_pnetlab_v6.sh
-wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/OneDriveUploader
-chmod 777 OneDriveUploader
-mv OneDriveUploader /usr/bin/
-wget https://github.com/Mr-jiangrj/website_build/raw/main/onedrive.zip
-unzip onedrive.zip
-OneDriveUploader -t 18 -s "install_pnetlab_v6.sh" -r "Share"
-rm -rf /opt/pnetlab/onedrive.zip
-rm -rf /opt/pnetlab/auth.json
-rm -rf /opt/pnetlab/download_pnetlab_v6.sh
+# wget https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/linux/OneDriveUploader
+# chmod 777 OneDriveUploader
+# mv OneDriveUploader /usr/bin/
+# wget https://github.com/Mr-jiangrj/website_build/raw/main/onedrive.zip
+# unzip onedrive.zip
+# OneDriveUploader -t 18 -s "install_pnetlab_v6.sh" -r "Share/"
+# rm -rf /opt/pnetlab/onedrive.zip
+# rm -rf /opt/pnetlab/auth.json
+# rm -rf /opt/pnetlab/download_pnetlab_v6.sh
 cd /root/
 wget https://devtools.qiniu.com/qshell-v2.10.0-linux-amd64.tar.gz
 tar xf qshell-v2.10.0-linux-amd64.tar.gz
