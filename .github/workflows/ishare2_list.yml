@@ -1,0 +1,51 @@
+name: 同步更新 ishare2 列表
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+    inputs:
+      clean_cache:
+        description: 'Clear caches'
+        required: false
+        type: boolean
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: 同步更新 ishare2 列表
+
+    steps:
+      - name: 检出项目文件
+        uses: actions/checkout@v3
+        
+      - name: 删除旧的 Release 项目
+        uses: dev-drprasad/delete-older-releases@v0.2.0
+        with:
+          repo: Mr-jiangrj/ishare2
+          keep_latest: 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: 下载最新 ishare2 列表
+        run: |
+          cd /home/runner/
+          wget https://github.com/Mr-jiangrj/ishare2/raw/main/ishare2_list.sh | sh
+
+      - name: 上传到 Github Releases
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ishare2
+          name: ishare2
+          body: 
+          draft: false
+          prerelease: false
+          files: |
+            /home/runner/*.csv
+         
+#      - name: 上传引导镜像到 Github Actions
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: ${{matrix.platform}} ${{matrix.version}}
+#          path: /home/runner/redpill-load/images/*.img
+#          if-no-files-found: error
