@@ -47,7 +47,6 @@ yarn build
 
 cd ./dist/
 echo "xiaobeing.cn" > CNAME
-echo "www.xiaobeing.cn" >> CNAME
 rm -rf .git
 git rm --cached -r *
 git config --global user.name "Mr-jiangrj"
