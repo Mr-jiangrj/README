@@ -21,7 +21,7 @@ sed -i "s/今日热榜/PNETLAB/g" ./src/components/Links/index.vue
 sed -i "s#\"网盘\"#\"云盘\"#g" ./src/components/Links/index.vue
 sed -i "s/Blog,/CameraRetro,/g" ./src/components/Links/index.vue
 sed -i "s/Cloud,/Cloudsmith,/g" ./src/components/Links/index.vue
-sed -i "s/Compass,/Cubes,/g" ./src/components/Links/index.vue
+sed -i "s/Compass,/Robot,/g" ./src/components/Links/index.vue
 sed -i "s/Fire,/ArrowAltCircleDown,/g" ./src/components/Links/index.vue
 sed -i "s#blog.xiaobeing.cn#v.douyin.com/Agjg976#g" ./src/components/Links/index.vue
 sed -i "s/nav.xiaobeing.cn/gpt.xiaobeing.cn/g" ./src/components/Links/index.vue
