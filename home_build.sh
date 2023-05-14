@@ -42,8 +42,8 @@ grep "主页：https://www.imsyy.top/" -rl ./ | xargs sed -i "s#主页：https:/
 grep "https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" -rl ./ | xargs sed -i "s#https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css#https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css#g"
 grep "VITE_SITE_URL = \"imsyy.top\"" -rl ./ | xargs sed -i "s#VITE_SITE_URL = \"imsyy.top\"#VITE_SITE_URL = \"xiaobeing.cn\"#g"
 grep "本站已经苟活了" -rl ./ | xargs sed -i "s#本站已经苟活了#本宝宝已经出生了#g"
-grep "https://www.imsyy.top/" -rl ./ | xargs sed -i "s#https://www.imsyy.top/#https://home.xiaobeing.cn/#g"
-grep "https://home-imsyy.vercel.app/" -rl ./ | xargs sed -i "s#https://home-imsyy.vercel.app/#https://pan.xiaobeing.cn/#g"
+grep "https://www.imsyy.top" -rl ./ | xargs sed -i "s#https://www.imsyy.top#https://home.xiaobeing.cn#g"
+grep "https://home-imsyy.vercel.app" -rl ./ | xargs sed -i "s#https://home-imsyy.vercel.app#https://pan.xiaobeing.cn#g"
 
 yarn build
 
