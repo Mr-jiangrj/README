@@ -25,7 +25,7 @@ sed -i "s/Compass,/Robot,/g" ./src/components/Links/index.vue
 sed -i "s/Fire,/ArrowAltCircleDown,/g" ./src/components/Links/index.vue
 sed -i "s#blog.xiaobeing.cn#v.douyin.com/Agjg976#g" ./src/components/Links/index.vue
 sed -i "s/nav.xiaobeing.cn/gpt.xiaobeing.cn/g" ./src/components/Links/index.vue
-sed -i "s#web.xiaobeing.cn/#www.xiaohongshu.com/user/profile/5bba31d33c2ad90001d38cb2?xhsshare=CopyLink&appuid=5bba31d33c2ad90001d38cb2&apptime=1680506535#g" ./src/components/Links/index.vue
+sed -i "s#web.xiaobeing.cn/#www.xiaohongshu.com/user/profile/5bba31d33c2ad90001d38cb2#g" ./src/components/Links/index.vue
 sed -i "s#hot.xiaobeing.cn/#www.xiaobeing.cn/zh-CN/%5B模拟器%5D%20PNETLAB/#g" ./src/components/Links/index.vue
 sed -i "s/2020-10-24/1994-10-30/g" ./.env
 grep "https://github.com/imsyy" -rl ./ | xargs sed -i "s#https://github.com/imsyy#https://github.com/Mr-jiangrj#g"
