@@ -48,7 +48,7 @@ grep "https://home-imsyy.vercel.app" -rl ./ | xargs sed -i "s#https://home-imsyy
 yarn build
 
 cd ./dist/
-echo "xiaobeing.cn" > CNAME
+echo "home.xiaobeing.cn" > CNAME
 rm -rf .git
 git rm --cached -r *
 git config --global user.name "Mr-jiangrj"
