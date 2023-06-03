@@ -1,5 +1,8 @@
-### docker-compose.yml
-`
+# Azure OpenAI for Web 部署
+
+###### docker-compose.yml
+
+```yaml
 version: '3'
 
 services:
@@ -29,4 +32,5 @@ services:
 networks:
   chatgpt:
     driver: bridge
-`
+```
+
