@@ -35,4 +35,4 @@ networks:
   chatgpt:
     driver: bridge
 ```
-AZURE_OPENAI_MODEL_MAPPER: "gpt-3.5-turbo=gpt-35-turbo"：等于前为模型名称，等于后为部署名称
+"gpt-3.5-turbo=gpt-35-turbo" 格式：模型名称=部署名称
