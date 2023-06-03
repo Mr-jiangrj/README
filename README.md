@@ -1,4 +1,4 @@
-# Azure OpenAI for Web 部署
+# Web OpenAI for 微软Azure
 
 ###### docker-compose.yml 创建新的网络
 
