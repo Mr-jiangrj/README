@@ -22,6 +22,8 @@ services:
 
   ai-azure-proxy:
     image: registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy
+    ports:
+      - 8080:8080
     environment:
       AZURE_OPENAI_ENDPOINT: "Azure OpenAI API 接口"
       AZURE_OPENAI_MODEL_MAPPER: "gpt-3.5-turbo=gpt-35-turbo"
