@@ -35,4 +35,4 @@ networks:
   chatgpt:
     driver: bridge
 ```
-> AZURE_OPENAI_MODEL_MAPPER 填写格式：<模型名称>=<部署名称>
+> AZURE_OPENAI_MODEL_MAPPER 填写格式：<AI模型>=<部署名称>
