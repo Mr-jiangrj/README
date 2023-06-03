@@ -72,3 +72,5 @@ networks:
     name: <NetworkName>
 ```
 > AZURE_OPENAI_MODEL_MAPPER 填写格式：<AI模型>=<部署名称>
+![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-06.png)
+![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-25.png)
