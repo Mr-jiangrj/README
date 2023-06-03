@@ -35,4 +35,4 @@ networks:
   chatgpt:
     driver: bridge
 ```
-"gpt-3.5-turbo=gpt-35-turbo" 格式：模型名称=部署名称
+> AZURE_OPENAI_MODEL_MAPPER 填写格式：<模型名称>=<部署名称>
