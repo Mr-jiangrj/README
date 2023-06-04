@@ -1,13 +1,15 @@
 # :books: My Docker Image List
 
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai:latest [	项目地址：Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web:latest [	项目地址：Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy:latest [	项目地址：Mr-jiangrj/AI-Azure-Proxy](https://github.com/Mr-jiangrj/AI-Azure-Proxy)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi:latest [	项目地址：Mr-jiangrj/UNMServerApi](https://github.com/Mr-jiangrj/UNMServerApi)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi:latest [	项目地址：Mr-jiangrj/NeteaseCloudMusicApi](https://github.com/Mr-jiangrj/NeteaseCloudMusicApi)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy:latest [	项目地址：Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/home:latest [	项目地址：Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page)
-- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/music:latest [	项目地址：Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer)
+| Docker 镜像列表                                              | 所属项目                                                     |
+| :----------------------------------------------------------- | ------------------------------------------------------------ |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai:latest          | [https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web:latest      | [https://github.com/Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy:latest | [https://github.com/Mr-jiangrj/AI-Azure-Proxy](https://github.com/Mr-jiangrj/AI-Azure-Proxy) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi:latest      | [https://github.com/Mr-jiangrj/UNMServerApi](https://github.com/Mr-jiangrj/UNMServerApi) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi:latest    | [https://github.com/Mr-jiangrj/NeteaseCloudMusicApi](https://github.com/Mr-jiangrj/NeteaseCloudMusicApi) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy:latest   | [https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/home:latest        | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/music:latest       | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
