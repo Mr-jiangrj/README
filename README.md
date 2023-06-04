@@ -1,4 +1,15 @@
-> 访问我的主页获取更多项目及Docker镜像：[https://github.com/Mr-jiangrj](https://github.com/Mr-jiangrj)
+# My Docker Image List
+
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/home:latest
+- [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/music:latest
+
+
 # Web OpenAI for 微软Azure
 
 ###### docker-compose.yml 创建新的网络
