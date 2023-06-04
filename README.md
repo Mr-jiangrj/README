@@ -1,4 +1,4 @@
-# My Docker Image List
+# :books: My Docker Image List
 
 - [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai:latest
 - [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web:latest
@@ -10,7 +10,7 @@
 - [x] registry.cn-hangzhou.aliyuncs.com/jiangrj/music:latest
 
 
-# Web OpenAI for 微软Azure
+# :books: Web OpenAI for 微软Azure
 
 ###### docker-compose.yml 创建新的网络
 
@@ -91,7 +91,7 @@ networks:
 ![](https://ghproxy.com/https://github.com/Mr-jiangrj/README/blob/main/Snipaste_2023-06-03_20-16-06.png)
 ![](https://ghproxy.com/https://github.com/Mr-jiangrj/README/blob/main/Snipaste_2023-06-03_20-16-25.png)
 
-# OpenAI for Wechat/WxWork/公众号
+# :books: OpenAI for Wechat/WxWork/公众号
 
 > 支持 OpenAI、Azure OpenAI
 
