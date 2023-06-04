@@ -158,4 +158,39 @@ docker run -dit --name sd-auto --hostname sd-auto \
     --network Docker-Network \
     registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
 ```
+###### docker-compose.yml
+```yaml
+version: '3'
+
+x-base_service:
+  deploy:
+    resources:
+      reservations:
+        devices:
+        - capabilities:
+          - compute
+          - utility
+          device_ids:
+          - "0"
+          driver: nvidia
+
+services:
+  sd-auto-cpu:
+    image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
+    ports:
+      - 7860:7860
+    environment:
+      "CLI_ARGS=--no-half --precision full --allow-code --enable-insecure-extension-access --api"
+    networks:
+      - sd-auto
+    stop_signal: SIGINT
+    volumes:
+      - /opt/sd-auto/data:/data
+      - /opt/sd-auto/output:/output
+    
+networks:
+  sd-auto:
+    external: true
+    name: <NetworkName>
+```
 
