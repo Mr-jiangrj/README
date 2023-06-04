@@ -118,7 +118,7 @@ docker run -dit --name <name> \
 - [x] 微信公众号：[config-mpwx.json](https://github.com/Mr-jiangrj/README/blob/main/config-mpwx.json)
 - [x] 企业微信应用：[config-wxcomapp.json](https://github.com/Mr-jiangrj/README/blob/main/config-wxcomapp.json)
 
-###### :page_with_curl: config.json 配置示例
+###### :page_with_curl: config-plugins-godcmd.json 配置示例
 
 ```shell
 {
