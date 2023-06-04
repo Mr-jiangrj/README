@@ -8,6 +8,8 @@
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy      | latest | [https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | latest | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | latest | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto        | latest | [https://github.com/Mr-jiangrj/Stable-Diffusion]([Stable-Diffusion/docker-compose.yml at master · Mr-jiangrj/Stable-Diffusion (github.com)](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml)) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | latest | [https://github.com/Mr-jiangrj/Stable-Diffusion]([Stable-Diffusion/docker-compose.yml at master · Mr-jiangrj/Stable-Diffusion (github.com)](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml)) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
@@ -48,7 +50,9 @@ networks:
   ChatGPT:
     driver: bridge
 ```
+
 ###### :page_with_curl: docker-compose.yml 连接到现有网络
+
 ```yaml
 version: '3'
 
@@ -84,8 +88,9 @@ networks:
     external: true
     name: <NetworkName>
 ```
+
 > AZURE_OPENAI_MODEL_MAPPER 填写格式：<AI模型>=<部署名称>
-> 
+>
 > CODE: 可选，设置访问密码
 
 ![](https://ghproxy.com/https://github.com/Mr-jiangrj/README/blob/main/Snipaste_2023-06-03_20-16-06.png)
@@ -102,14 +107,15 @@ docker run -dit --name <name> \
     -p <host-port>:<container-port> \
     registry.cn-hangzhou.aliyuncs.com/jiangrj/ai
 ```
+
 > 全局配置文件：/app/config.json（配置参考：[https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)）
-> 
+>
 > 插件管理密码配置：/app/config-plugins-godcmd.json（参考：[config-plugins-godcmd.json](https://github.com/Mr-jiangrj/README/blob/main/config-plugins-godcmd.json)）
-> 
+>
 > 工作目录：/opt/AI（请不要映射此目录，否则会导致项目丢失）
-> 
+>
 > 插件目录：/opt/AI/plugins（请不要映射此目录，否则会导致插件丢失）
-> 
+>
 > 支持 OpenAI、Azure OpenAI
 
 ###### :page_with_curl: config.json 配置示例
@@ -126,3 +132,29 @@ docker run -dit --name <name> \
   "admin_users": []
 }
 ```
+
+# :bookmark_tabs: Stable Diffusion 环境部署
+
+- [x] Step1：下载 Stable Diffusion 数据
+
+```shell
+mkdir -p /opt/sd-auto/data
+docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
+docker run -it --rm -v /opt/sd-auto/data:/data \
+    registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
+```
+
+- [x] Step2：创建 Stable Diffusion Auto 服务
+
+```shell
+mkdir -p /opt/sd-auto/output
+docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
+docker run -dit --name sd-auto --hostname sd-auto
+    -v /opt/sd-auto/data:/data \
+    -v /opt/sd-auto/output:/output \
+    -p 7860:7860 \
+    --restart always
+    --network Docker-Network
+    registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
+```
+
