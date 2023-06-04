@@ -149,7 +149,8 @@ docker run -it --rm -v /opt/sd-auto/data:/data \
 ```shell
 mkdir -p /opt/sd-auto/output
 docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
-docker run -dit --name sd-auto --hostname sd-auto
+docker run -dit --name sd-auto --hostname sd-auto \
+    -e "CLI_ARGS=--no-half --precision full --allow-code --enable-insecure-extension-access --api" \
     -v /opt/sd-auto/data:/data \
     -v /opt/sd-auto/output:/output \
     -p 7860:7860 \
