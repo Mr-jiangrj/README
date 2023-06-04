@@ -1,5 +1,3 @@
-# :books: My Docker Image List
-
 | Docker 镜像列表                                              | 所属项目                                                     |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/ai:latest          | [https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI) |
