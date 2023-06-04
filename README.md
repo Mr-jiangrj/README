@@ -91,5 +91,7 @@ docker run -dit --name <name> \
     registry.cn-hangzhou.aliyuncs.com/jiangrj/ai
 ```
 > 配置文件：/app/config.json（配置参考：[https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)）
+> 
 > 应用目录：/opt/AI
+> 
 > 插件目录：/opt/AI/plugins
