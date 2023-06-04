@@ -1,15 +1,15 @@
-| 镜像列表                                                 | 版本   | 所属项目                                                     |
-| :------------------------------------------------------- | ------ | ------------------------------------------------------------ |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai             | latest | [https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web         | latest | [https://github.com/Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web/blob/main/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy | latest | [https://github.com/Mr-jiangrj/AI-Azure-Proxy](https://github.com/Mr-jiangrj/AI-Azure-Proxy/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi         | latest | [https://github.com/Mr-jiangrj/UNMServerApi](https://github.com/Mr-jiangrj/UNMServerApi/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi       | latest | [https://github.com/Mr-jiangrj/NeteaseCloudMusicApi](https://github.com/Mr-jiangrj/NeteaseCloudMusicApi/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy      | latest | [https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | latest | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | latest | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto        | latest | [https://github.com/Mr-jiangrj/Stable-Diffusion]([Stable-Diffusion/docker-compose.yml at master · Mr-jiangrj/Stable-Diffusion (github.com)](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | latest | [https://github.com/Mr-jiangrj/Stable-Diffusion]([Stable-Diffusion/docker-compose.yml at master · Mr-jiangrj/Stable-Diffusion (github.com)](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml)) |
+| 镜像列表                                                 | 所属项目                                                     |
+| :------------------------------------------------------- | ------------------------------------------------------------ |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai             | [https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web         | [https://github.com/Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web/blob/main/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy | [https://github.com/Mr-jiangrj/AI-Azure-Proxy](https://github.com/Mr-jiangrj/AI-Azure-Proxy/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi         | [https://github.com/Mr-jiangrj/UNMServerApi](https://github.com/Mr-jiangrj/UNMServerApi/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi       | [https://github.com/Mr-jiangrj/NeteaseCloudMusicApi](https://github.com/Mr-jiangrj/NeteaseCloudMusicApi/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy      | [https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto        | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
@@ -153,8 +153,8 @@ docker run -dit --name sd-auto --hostname sd-auto
     -v /opt/sd-auto/data:/data \
     -v /opt/sd-auto/output:/output \
     -p 7860:7860 \
-    --restart always
-    --network Docker-Network
+    --restart always \
+    --network Docker-Network \
     registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
 ```
 
