@@ -82,8 +82,8 @@ networks:
 > 支持 OpenAI、Azure OpenAI
 
 ```shell
-docker run -dit --name ai-wxcomapp \
-    --hostname ai-wxcomapp \
+docker run -dit --name <name> \
+    --hostname <hostname> \
     --restart always \
     --network <Network-Name> \
     -v <path>:/app \
