@@ -76,3 +76,20 @@ networks:
 
 ![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-06.png)
 ![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-25.png)
+
+# OpenAI for Wechat/WxWork/公众号
+
+> 支持 OpenAI、Azure OpenAI
+
+```shell
+docker run -dit --name ai-wxcomapp \
+    --hostname ai-wxcomapp \
+    --restart always \
+    --network <Network-Name> \
+    -v <path>:/app \
+    -p <host-port>:<container-port> \
+    registry.cn-hangzhou.aliyuncs.com/jiangrj/ai
+```
+> 配置文件：/app/config.json（配置参考：[https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)）
+> 应用目录：/opt/AI
+> 插件目录：/opt/AI/plugins
