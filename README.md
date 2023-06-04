@@ -102,7 +102,9 @@ docker run -dit --name <name> \
     -p <host-port>:<container-port> \
     registry.cn-hangzhou.aliyuncs.com/jiangrj/ai
 ```
-> 配置文件：/app/config.json（配置参考：[https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)）
+> 全局配置文件：/app/config.json（配置参考：[https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)）
+> 
+> 插件管理密码配置：/app/config-plugins-godcmd.json（参考：[config-plugins-godcmd.json](https://github.com/Mr-jiangrj/README/blob/main/config-plugins-godcmd.json)）
 > 
 > 工作目录：/opt/AI
 > 
@@ -115,3 +117,5 @@ docker run -dit --name <name> \
 - [x] 个人微信号：[config-wx.json](https://github.com/Mr-jiangrj/README/blob/main/config-wx.json)
 - [x] 微信公众号：[config-mpwx.json](https://github.com/Mr-jiangrj/README/blob/main/config-mpwx.json)
 - [x] 企业微信应用：[config-wxcomapp.json](https://github.com/Mr-jiangrj/README/blob/main/config-wxcomapp.json)
+
+###### :page_with_curl: config.json 配置示例
