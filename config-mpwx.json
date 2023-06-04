@@ -29,7 +29,7 @@
   "use_azure_chatgpt": true,
   "channel_type": "wechatmp",
   "wechatmp_token": "令牌(Token)",
-  "wechatmp_port": 端口,
+  "wechatmp_port": 8080,
   "wechatmp_app_id": "开发者ID(AppID)",
   "wechatmp_app_secret": "开发者密码(AppSecret)",
   "wechatmp_aes_key": "消息加解密密钥(EncodingAESKey)",
