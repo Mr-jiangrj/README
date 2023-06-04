@@ -1,4 +1,4 @@
-| 序号 | 镜像列表                                                 | 版本   | 所属项目                                                     |
+|      | 镜像列表                                                 | 版本   | 所属项目                                                     |
 | ---- | :------------------------------------------------------- | ------ | ------------------------------------------------------------ |
 | 1    | registry.cn-hangzhou.aliyuncs.com/jiangrj/ai             | latest | [https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI) |
 | 2    | registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web         | latest | [https://github.com/Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web) |
