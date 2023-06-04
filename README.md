@@ -106,9 +106,9 @@ docker run -dit --name <name> \
 > 
 > 插件管理密码配置：/app/config-plugins-godcmd.json（参考：[config-plugins-godcmd.json](https://github.com/Mr-jiangrj/README/blob/main/config-plugins-godcmd.json)）
 > 
-> 工作目录：/opt/AI
+> 工作目录：/opt/AI（请不要映射此目录，否则会导致项目丢失）
 > 
-> 插件目录：/opt/AI/plugins
+> 插件目录：/opt/AI/plugins（请不要映射此目录，否则会导致插件丢失）
 > 
 > 支持 OpenAI、Azure OpenAI
 
@@ -119,3 +119,10 @@ docker run -dit --name <name> \
 - [x] 企业微信应用：[config-wxcomapp.json](https://github.com/Mr-jiangrj/README/blob/main/config-wxcomapp.json)
 
 ###### :page_with_curl: config.json 配置示例
+
+```shell
+{
+  "password": "password",
+  "admin_users": []
+}
+```
