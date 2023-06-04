@@ -1,15 +1,13 @@
 | 镜像列表                                                 | 版本   | 所属项目                                                     |
 | :------------------------------------------------------- | ------ | ------------------------------------------------------------ |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai             | latest | [https://github.com/Mr-jiangrj/AI]([https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI/blob/master/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web         | latest | [https://github.com/Mr-jiangrj/AI-Web]([https://github.com/Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web/blob/main/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy | latest | [https://github.com/Mr-jiangrj/AI-Azure-Proxy]([https://github.com/Mr-jiangrj/AI-Azure-Proxy](https://github.com/Mr-jiangrj/AI-Azure-Proxy/blob/master/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi         | latest | [https://github.com/Mr-jiangrj/UNMServerApi]([https://github.com/Mr-jiangrj/UNMServerApi](https://github.com/Mr-jiangrj/UNMServerApi/blob/master/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi       | latest | [https://github.com/Mr-jiangrj/NeteaseCloudMusicApi]([https://github.com/Mr-jiangrj/NeteaseCloudMusicApi](https://github.com/Mr-jiangrj/NeteaseCloudMusicApi/blob/master/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy      | latest | [https://github.com/Mr-jiangrj/SiteProxy]([https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy/blob/master/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | latest | [https://github.com/Mr-jiangrj/home-page]([https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile)) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | latest | [https://github.com/Mr-jiangrj/SPlayer]([https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile)) |
-
-
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai             | latest | [https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-web         | latest | [https://github.com/Mr-jiangrj/AI-Web](https://github.com/Mr-jiangrj/AI-Web/blob/main/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/ai-azure-proxy | latest | [https://github.com/Mr-jiangrj/AI-Azure-Proxy](https://github.com/Mr-jiangrj/AI-Azure-Proxy/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/unmapi         | latest | [https://github.com/Mr-jiangrj/UNMServerApi](https://github.com/Mr-jiangrj/UNMServerApi/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/musicapi       | latest | [https://github.com/Mr-jiangrj/NeteaseCloudMusicApi](https://github.com/Mr-jiangrj/NeteaseCloudMusicApi/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy      | latest | [https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | latest | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | latest | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
