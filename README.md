@@ -77,8 +77,8 @@ networks:
 > 
 > CODE: 可选，设置访问密码
 
-![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-06.png)
-![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-25.png)
+![](https://github.com/Mr-jiangrj/README/blob/main/Snipaste_2023-06-03_20-16-06.png)
+![](https://github.com/Mr-jiangrj/README/blob/main/Snipaste_2023-06-03_20-16-25.png)
 
 # OpenAI for Wechat/WxWork/公众号
 
