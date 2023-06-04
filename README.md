@@ -12,7 +12,7 @@
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
 
-###### docker-compose.yml 创建新的网络
+###### :page_with_curl: docker-compose.yml 创建新的网络
 
 ```yaml
 version: '3'
@@ -48,7 +48,7 @@ networks:
   ChatGPT:
     driver: bridge
 ```
-###### docker-compose.yml 连接到现有网络
+###### :page_with_curl: docker-compose.yml 连接到现有网络
 ```yaml
 version: '3'
 
@@ -110,7 +110,7 @@ docker run -dit --name <name> \
 > 
 > 支持 OpenAI、Azure OpenAI
 
-###### config.json 配置示例
+###### :page_with_curl: config.json 配置示例
 
 - [x] 个人微信号：[config-wx.json](https://github.com/Mr-jiangrj/README/blob/main/config-wx.json)
 - [x] 微信公众号：[config-mpwx.json](https://github.com/Mr-jiangrj/README/blob/main/config-mpwx.json)
