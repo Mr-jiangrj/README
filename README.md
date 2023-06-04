@@ -13,6 +13,7 @@ services:
     environment:
       OPENAI_API_KEY: "Azure OpenAI API Key"
       BASE_URL: "http://ai-azure-proxy:8080"
+      CODE: ["code1","code2","code3"]
     depends_on:
       - ai-azure-proxy
     links:
@@ -35,7 +36,6 @@ networks:
   ChatGPT:
     driver: bridge
 ```
-> AZURE_OPENAI_MODEL_MAPPER 填写格式：<AI模型>=<部署名称>
 ###### docker-compose.yml 连接到现有网络
 ```yaml
 version: '3'
@@ -48,6 +48,7 @@ services:
     environment:
       OPENAI_API_KEY: "Azure OpenAI API Key"
       BASE_URL: "http://ai-azure-proxy:8080"
+      CODE: ["code1","code2","code3"]
     depends_on:
       - ai-azure-proxy
     links:
@@ -72,7 +73,8 @@ networks:
     name: <NetworkName>
 ```
 > AZURE_OPENAI_MODEL_MAPPER 填写格式：<AI模型>=<部署名称>
-
+> 
+> CODE: 可选，设置访问密码
 
 ![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-06.png)
 ![](https://github.com/Mr-jiangrj/auth/blob/main/Snipaste_2023-06-03_20-16-25.png)
