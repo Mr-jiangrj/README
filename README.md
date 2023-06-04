@@ -9,7 +9,7 @@
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto        | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/data-Dockerfile) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
