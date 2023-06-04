@@ -1,0 +1,37 @@
+{
+  "open_ai_api_key": "微软 Azure OpenAI Key",
+  "model": "gpt-35-turbo",
+  "azure_deployment_id": "微软 Azure OpenAI 部署名",
+  "proxy": "",
+  "single_chat_prefix": [
+    ""
+  ],
+  "single_chat_reply_prefix": "",
+  "group_chat_prefix": [
+    ""
+  ],
+  "group_name_white_list": [
+    "ALL_GROUP"
+  ],
+  "group_chat_in_one_session": [
+    "ALL_GROUP"
+  ],
+  "image_create_prefix": [
+    "画",
+    "看",
+    "找"
+  ],
+  "conversation_max_tokens": 1000,
+  "expires_in_seconds": 3600,
+  "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
+  "subscribe_msg": "感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
+  "open_ai_api_base": "微软Azure接口API地址",
+  "use_azure_chatgpt": true,
+  "channel_type": "wechatmp",
+  "wechatmp_token": "令牌(Token)",
+  "wechatmp_port": 端口,
+  "wechatmp_app_id": "开发者ID(AppID)",
+  "wechatmp_app_secret": "开发者密码(AppSecret)",
+  "wechatmp_aes_key": "消息加解密密钥(EncodingAESKey)",
+  "plugin_trigger_prefix": "&"
+}
