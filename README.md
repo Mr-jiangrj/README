@@ -93,8 +93,6 @@ networks:
 
 # :bookmark_tabs: OpenAI for Wechat/WxWork/公众号
 
-> 支持 OpenAI、Azure OpenAI
-
 ```shell
 docker run -dit --name <name> \
     --hostname <hostname> \
@@ -109,3 +107,11 @@ docker run -dit --name <name> \
 > 项目目录：/opt/AI
 > 
 > 插件目录：/opt/AI/plugins
+> 
+> 支持 OpenAI、Azure OpenAI
+
+###### config.json 配置示例
+
+- [x] 个人微信号：[config-wx.json](https://github.com/Mr-jiangrj/README/blob/main/config-wx.json)
+- [x] 微信公众号：[config-mpwx.json](https://github.com/Mr-jiangrj/README/blob/main/config-mpwx.json)
+- [x] 企业微信应用：[config-wxcomapp.json](https://github.com/Mr-jiangrj/README/blob/main/config-wxcomapp.json)
