@@ -11,9 +11,9 @@
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data        | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu    | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy-cpu   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
-| ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto~~    | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
-| ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy~~   | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
-| ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-invoke~~  | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto        | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy       | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-invoke      | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
@@ -199,3 +199,6 @@ networks:
     external: true
     name: <NetworkName>
 ```
+
+> 关于不同模型的参数，参照：[https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml)
+
