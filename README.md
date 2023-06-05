@@ -10,10 +10,10 @@
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data        | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu    | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy-cpu   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
 | ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto~~    | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
 | ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy~~   | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy-cpu   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-invoke      | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-invoke~~  | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
