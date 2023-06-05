@@ -153,7 +153,7 @@ services:
   sd-auto-cpu:
     image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
     container_name: sd-auto-cpu
-	ports: 
+    ports: 
       - 80:7860
     stop_signal: SIGINT
     environment:
