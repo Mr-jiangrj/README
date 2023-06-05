@@ -150,6 +150,8 @@ services:
     container_name: sd-data
     volumes:
       - /opt/sd:/data
+    networks:
+      - SD-NET
 
   sd-auto-cpu:
     image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
@@ -168,6 +170,7 @@ services:
 networks:
   SD-NET:
     driver: bridge
+
 ```
 
 > 关于不同模型的参数，参照：[https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml)
