@@ -144,16 +144,17 @@ docker run -dit --name <name> \
 version: "3"
 
 services:
+
   sd-data:
     image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data
+    container_name: sd-data
     volumes:
       - /opt/sd:/data
 
-services:
   sd-auto-cpu:
     image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
     container_name: sd-auto-cpu
-    ports: 
+    ports:
       - 80:7860
     stop_signal: SIGINT
     environment:
@@ -163,7 +164,7 @@ services:
     volumes:
       - /opt/sd/data:/data
       - /opt/sd/output:/output
-      
+
 networks:
   SD-NET:
     driver: bridge
