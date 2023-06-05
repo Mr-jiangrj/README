@@ -115,7 +115,9 @@ docker run -dit --name <name> \
 > 全局配置文件：/app/config.json（配置参考：[https://github.com/Mr-jiangrj/AI](https://github.com/Mr-jiangrj/AI)）
 >
 > 插件管理密码配置：/app/config-plugins-godcmd.json（参考：[config-plugins-godcmd.json](https://github.com/Mr-jiangrj/README/blob/main/config-plugins-godcmd.json)）
->
+> 
+> Stable Diffusion插件配置：/app/config-plugins-sdwebui.json（示例文件：/opt/AI/plugins/sdwebui/config.json.template）
+> 
 > 工作目录：/opt/AI（请不要映射此目录，否则会导致项目丢失）
 >
 > 插件目录：/opt/AI/plugins（请不要映射此目录，否则会导致插件丢失）
