@@ -143,24 +143,24 @@ docker run -dit --name <name> \
 
 ```shell
 mkdir -p /opt/sd-auto/data
-docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
+docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data
 docker run -it --rm -v /opt/sd-auto/data:/data \
-    registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
+    registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data
 ```
 
 - [x] Step2：创建 Stable Diffusion Auto 服务
 
 ```shell
 mkdir -p /opt/sd-auto/output
-docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data
-docker run -dit --name sd-auto --hostname sd-auto \
+docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
+docker run -dit --name sd-auto-cpu --hostname sd-auto-cpu \
     -e "CLI_ARGS=--no-half --precision full --allow-code --enable-insecure-extension-access --api" \
     -v /opt/sd-auto/data:/data \
     -v /opt/sd-auto/output:/output \
     -p 7860:7860 \
     --restart always \
     --network Docker-Network \
-    registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
+    registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
 ```
 
 ###### docker-compose.yml
@@ -182,13 +182,13 @@ x-base_service:
 
 services:
   sd-auto-cpu:
-    image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
+    image: registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
     ports:
       - 7860:7860
     environment:
       "CLI_ARGS=--no-half --precision full --allow-code --enable-insecure-extension-access --api"
     networks:
-      - sd-auto
+      - sd-auto-cpu
     stop_signal: SIGINT
     volumes:
       - /opt/sd-auto/data:/data
