@@ -8,8 +8,12 @@
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/siteproxy      | [https://github.com/Mr-jiangrj/SiteProxy](https://github.com/Mr-jiangrj/SiteProxy/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/home           | [https://github.com/Mr-jiangrj/home-page](https://github.com/Mr-jiangrj/home-page/blob/master/Dockerfile) |
 | registry.cn-hangzhou.aliyuncs.com/jiangrj/music          | [https://github.com/Mr-jiangrj/SPlayer](https://github.com/Mr-jiangrj/SPlayer/blob/master/Dockerfile) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu    | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/docker-compose.yml) |
-| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/blob/master/data-Dockerfile) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-data   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu    | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto        | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| ~~registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy~~   | ~~[https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows)~~ |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-comfy-cpu   | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
+| registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-invoke      | [https://github.com/Mr-jiangrj/Stable-Diffusion](https://github.com/Mr-jiangrj/Stable-Diffusion/tree/master/.github/workflows) |
 
 
 # :bookmark_tabs: Web OpenAI for 微软Azure
@@ -158,7 +162,9 @@ docker run -dit --name sd-auto --hostname sd-auto \
     --network Docker-Network \
     registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto
 ```
+
 ###### docker-compose.yml
+
 ```yaml
 version: '3'
 
@@ -193,4 +199,3 @@ networks:
     external: true
     name: <NetworkName>
 ```
-
