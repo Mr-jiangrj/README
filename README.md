@@ -182,11 +182,14 @@ networks:
 ```shell
 # 安装 Docker-CE
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+
 # 拉取 Stable-Diffusion 镜像
 docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data
 docker pull registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-auto-cpu
+
 # 创建 Stable-Diffusion 数据
 docker run -it --rm -v /opt/sd:/data registry.cn-hangzhou.aliyuncs.com/jiangrj/sd-data
+
 # 创建 Stable-Diffusion WebUI
 docker run -dit --name sdwebui --hostname sdwebui --restart always \
     -p 80:7860 --stop_signal=SIGINT -v /opt/sd/data:/data -v /opt/sd/output:/output \
